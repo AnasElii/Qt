@@ -1,4 +1,5 @@
 import QtQuick 2.15
+import QtQuick.Layouts
 
 Window {
     id: mainWindow
@@ -14,32 +15,56 @@ Window {
             bottom: posRow.top
         }
         font.pixelSize: 20
-        text: "Repeater"
+        text: "Stack Layout"
     }
 
-    Row{
-        id: posRow
+    StackLayout{
+
+        id: stackLayout
         anchors{
-            centerIn: parent            
+            centerIn: parenZZt
             bottom: gridText.top
             left: gridText.left
 
         }
-        spacing: 2
+        currentIndex:1
 
-        Repeater{
-            model: 4
-            Rectangle{
-                width:100
-                height: 100
-                color: "red"
-            }
 
+
+        Rectangle{
+            width:100
+            height: 100
+            color: "red"
+        }
+
+        Rectangle{
+            width:100
+            height: 100
+            color: "blue"
+        }
+
+        Rectangle{
+            width:100
+            height: 100
+            color: "green"
+        }
+
+        Rectangle{
+            width:100
+            height: 100
+            color: "#f8f645"
+        }
+
+        Rectangle{
+            width:100
+            height: 100
+            color: "#3cd2e6"
         }
 
 
-
     }
+
+
 
 
 }
