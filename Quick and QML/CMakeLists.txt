@@ -18,25 +18,21 @@ file(GLOB_RECURSE SOURCES
     "${INCLUDE_DIR}/*.h"
 )
 
-file(GLOB_RECURSE QML_SOURCES
-    "${UI_DIR}/*.qml"
-)
-
 find_package(Qt6 COMPONENTS Gui Quick REQUIRED)
 
 qt_add_executable(QHelloWorld
     ${SOURCES}
 )
 
-qt_add_qml_module(QHelloWOrld
+qt_add_qml_module(QHelloWorld
     URI rec
     VERSION 1.0.0
     QML_FILES
-        ${QML_SOURCES}    
+        ui/main.qml
 )
 
 target_link_directories(QHelloWorld PUBLIC ${SOURCE_DIR})
 target_link_directories(QHelloWorld PUBLIC ${INCLUDE_DIR})
 target_link_directories(QHelloWorld PUBLIC ${UI_DIR})
 
-target_link_libraries(QHelloWOrld PRIVATE Qt6::Gui Qt6::Quick)
+target_link_libraries(QHelloWorld PRIVATE Qt6::Gui Qt6::Quick)
