@@ -1,6 +1,6 @@
 import QtQuick 2.15
 import QtQuick.Layouts
-import backend.logic
+import rec
 
 Window {
     id: mainWindow
@@ -13,12 +13,16 @@ Window {
         id:backend
     }
 
+    BackendLogic{
+        id:backendLogic
+    }
+
     Text{
 
         anchors{
             centerIn: parent
         }
         font.pixelSize: 20
-        text: "From Backend Logic: " + backend.getData();
+        text: "From Backend Logic: " + backendLogic.getData();
     }
 }
