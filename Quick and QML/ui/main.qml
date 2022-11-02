@@ -9,62 +9,11 @@ Window {
     title: qsTr("Hello World")
 
     Text{
-        id: rowText
+
         anchors{
-            left: posRow.left
-            bottom: posRow.top
+            centerIn: parent
         }
         font.pixelSize: 20
-        text: "Stack Layout"
+        text: "The Radius is: " + radius
     }
-
-    StackLayout{
-
-        id: stackLayout
-        anchors{
-            centerIn: parenZZt
-            bottom: gridText.top
-            left: gridText.left
-
-        }
-        currentIndex:1
-
-
-
-        Rectangle{
-            width:100
-            height: 100
-            color: "red"
-        }
-
-        Rectangle{
-            width:100
-            height: 100
-            color: "blue"
-        }
-
-        Rectangle{
-            width:100
-            height: 100
-            color: "green"
-        }
-
-        Rectangle{
-            width:100
-            height: 100
-            color: "#f8f645"
-        }
-
-        Rectangle{
-            width:100
-            height: 100
-            color: "#3cd2e6"
-        }
-
-
-    }
-
-
-
-
 }

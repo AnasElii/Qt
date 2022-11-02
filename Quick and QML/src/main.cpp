@@ -1,5 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+#include <QQmlContext>
 //#include <QQuickView>
 
 int main(int argc, char *argv[])
@@ -13,6 +14,8 @@ int main(int argc, char *argv[])
     // view.show();
 
     QQmlApplicationEngine engine;
+    engine.rootContext()->setContextProperty("radius", 50);
+
     const QUrl url(u"qrc:/rec/ui/main.qml"_qs);
     engine.load(url);
     return app.exec();
