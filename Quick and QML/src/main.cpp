@@ -3,6 +3,8 @@
 #include <QQmlContext>
 //#include <QQuickView>
 
+#include "backendlogic.h"
+
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
@@ -15,6 +17,7 @@ int main(int argc, char *argv[])
 
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("radius", 50);
+    qmlRegisterType<BackendLogic>("backend.logic", 1, 0, "BackendLogic");
 
     const QUrl url(u"qrc:/rec/ui/main.qml"_qs);
     engine.load(url);
