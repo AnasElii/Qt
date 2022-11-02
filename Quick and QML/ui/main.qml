@@ -1,6 +1,4 @@
 import QtQuick 2.15
-import QtQuick.Layouts
-import rec
 
 Window {
     id: mainWindow
@@ -9,12 +7,15 @@ Window {
     width: 500; height: 500
     title: qsTr("Hello World")
 
-    BackendLogic{
-        id:backend
+    function qmlMethod(msg: string):string
+    {
+        console.log("Receive message: ", msg);
+        return "Seccuss";
     }
 
-    BackendLogic{
-        id:backendLogic
+
+    Component.onCompleted: {
+        console.log("Component creat seccussfully.");
     }
 
     Text{
@@ -23,6 +24,6 @@ Window {
             centerIn: parent
         }
         font.pixelSize: 20
-        text: "From Backend Logic: " + backendLogic.getData();
+        text: "From Backend Logic: ";
     }
 }

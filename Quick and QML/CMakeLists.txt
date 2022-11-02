@@ -29,6 +29,7 @@ qt_add_qml_module(QHelloWorld
     VERSION 1.0.0
     QML_FILES
         ui/main.qml
+        ui/CustomItem.qml
 )
 
 target_link_directories(QHelloWorld PUBLIC ${SOURCE_DIR})

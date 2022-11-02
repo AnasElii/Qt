@@ -3,6 +3,8 @@
   "files.associations": {
     "qguiapplication": "cpp",
     "atomic": "cpp",
-    "memory": "cpp"
+    "memory": "cpp",
+    "qdebug": "cpp",
+    "qqmlapplicationengine": "cpp"
   }
 }
