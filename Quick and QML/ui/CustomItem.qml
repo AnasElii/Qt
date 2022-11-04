@@ -1,17 +1,15 @@
 import QtQuick 2.15
 
-Item {
-    id: mainItem
-    width:500
-    height: 500
+Window {
+    id: mainWindow
 
-    Rectangle { width: 80; height: 80; border.width: 1 }
-    Rectangle { x: 20; y: 20; width: 80; height: 80; border.width: 1 }
+    visible: true
+    width: 500; height: 500
+    title: qsTr("Hello World")
 
-    function qmlMethod(msg: string):string
+    function qmlMethod(msg: string, name: string)
     {
-        console.log("QML: Receive message: ", msg);
-        return "Seccuss";
+        console.log("QML: Receive message: ", msg, " Name: " + name);
     }
 
     Component.onCompleted: {
@@ -19,3 +17,5 @@ Item {
     }
 
 }
+
+

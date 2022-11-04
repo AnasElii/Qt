@@ -5,6 +5,10 @@
     "atomic": "cpp",
     "memory": "cpp",
     "qdebug": "cpp",
-    "qqmlapplicationengine": "cpp"
+    "qqmlapplicationengine": "cpp",
+    "future": "cpp",
+    "system_error": "cpp",
+    "chrono": "cpp",
+    "xlocale": "cpp"
   }
 }
