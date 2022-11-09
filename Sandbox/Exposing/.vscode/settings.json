@@ -1,0 +1,15 @@
+{
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "files.associations": {
+    "qguiapplication": "cpp",
+    "atomic": "cpp",
+    "memory": "cpp",
+    "qdebug": "cpp",
+    "qqmlapplicationengine": "cpp",
+    "future": "cpp",
+    "system_error": "cpp",
+    "chrono": "cpp",
+    "xlocale": "cpp",
+    "qvariant": "cpp"
+  }
+}
