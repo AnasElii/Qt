@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
 project(QHelloWorld VERSION 1.0.0 LANGUAGES CXX)
 
+
 set(CMAKE_AUTOMOC ON)
 set(CXX_STANDARD 17)
 set(CXX_STANDARD_REQUIRED ON)
@@ -20,17 +21,17 @@ file(GLOB_RECURSE SOURCES
 
 find_package(Qt6 COMPONENTS Gui Quick REQUIRED)
 
-qt_add_executable(QHelloWorld
-    ${SOURCES}
-)
+
+    qt_add_executable(QHelloWorld ${SOURCES})
+
 
 qt_add_qml_module(QHelloWorld
     URI rec
     VERSION 1.0.0
     QML_FILES
         ui/main.qml
-        ui/CustomItem.qml
-        ui/CustomObject.qml
+        ui/constants.js
+        ui/javascriptFile.js
 )
 
 target_link_directories(QHelloWorld PUBLIC ${SOURCE_DIR})
