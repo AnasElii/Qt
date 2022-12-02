@@ -1,0 +1,69 @@
+# ninja log v5
+14	89	6916407105842886	rec/ui/main.qml	96292e17fd925c4f
+810	948	6916407114368926	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/constants_js.cpp	652197774ae39eda
+637	809	6916407112321944	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/rec/QHelloWorld.qmltypes	ebf0822530e441d7
+14	89	6916407105842886	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/rec/ui/main.qml	96292e17fd925c4f
+2	96	6916407105862896	.rcc/qmlcache/QHelloWorld_qmlcache_loader.cpp	39ad3110b74184bd
+2	96	6916407105862896	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/.rcc/qmlcache/QHelloWorld_qmlcache_loader.cpp	39ad3110b74184bd
+29	115	6916407106038387	rec/ui/javascriptFile.js	2d223e1ab278419e
+29	115	6916407106038387	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/rec/ui/javascriptFile.js	2d223e1ab278419e
+42	116	6916407106093477	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/rec/ui/constants.js	ea40e1e1d70df6a4
+1287	3078	6916407135581080	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/main_qml.cpp.o	a74902b286318e3e
+42	116	6916407106093477	rec/ui/constants.js	ea40e1e1d70df6a4
+96	461	6916407107854204	QHelloWorld_autogen/timestamp	ebc9c3c20ad08cab
+3231	3429	6916407139046614	libQHelloWorld_x86_64.so	893f62af2e6ac1c1
+96	461	6916407107854204	QHelloWorld_autogen/mocs_compilation.cpp	ebc9c3c20ad08cab
+96	461	6916407107854204	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/QHelloWorld_autogen/timestamp	ebc9c3c20ad08cab
+96	461	6916407107854204	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/QHelloWorld_autogen/mocs_compilation.cpp	ebc9c3c20ad08cab
+462	525	6916407110230258	meta_types/QHelloWorld_json_file_list.txt	59e2e7742564420
+462	525	6916407110230258	meta_types/QHelloWorld_json_file_list.txt.timestamp	59e2e7742564420
+462	525	6916407110230258	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/meta_types/QHelloWorld_json_file_list.txt	59e2e7742564420
+462	525	6916407110230258	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/meta_types/QHelloWorld_json_file_list.txt.timestamp	59e2e7742564420
+471	551	6916407110440520	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/.rcc/qrc_qmake_rec.cpp	333abe5137ac2d84
+471	551	6916407110440520	.rcc/qrc_qmake_rec.cpp	333abe5137ac2d84
+525	637	6916407111350484	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/meta_types/qt6qhelloworld_debug_metatypes.json.gen	1cba202c670f512c
+525	637	6916407111350484	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/meta_types/qt6qhelloworld_debug_metatypes.json	1cba202c670f512c
+1219	1398	6916407118772035	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qrc_qmake_rec.cpp.o	3e5c27b503aa7df2
+3429	3516	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/CMakeFiles/QHelloWorld_prepare_apk_dir	7c72285ac99c8a1d
+485	555	6916407110510918	.rcc/qrc_QHelloWorld_raw_qml_0.cpp	e5f7f73488a8d1f3
+485	555	6916407110510918	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/.rcc/qrc_QHelloWorld_raw_qml_0.cpp	e5f7f73488a8d1f3
+525	637	6916407111350484	meta_types/qt6qhelloworld_debug_metatypes.json.gen	1cba202c670f512c
+525	637	6916407111350484	meta_types/qt6qhelloworld_debug_metatypes.json	1cba202c670f512c
+637	809	6916407112321944	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/qhelloworld_qmltyperegistrations.cpp	ebf0822530e441d7
+1029	3059	6916407135212346	CMakeFiles/QHelloWorld.dir/src/main.cpp.o	7111415c337bd8c7
+637	809	6916407112321944	qhelloworld_qmltyperegistrations.cpp	ebf0822530e441d7
+1266	3230	6916407137048278	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_qmlcache_loader.cpp.o	ecae354eee84f7e8
+637	809	6916407112321944	rec/QHelloWorld.qmltypes	ebf0822530e441d7
+810	948	6916407114368926	.rcc/qmlcache/QHelloWorld_ui/constants_js.cpp	652197774ae39eda
+829	954	6916407114434047	.rcc/qmlcache/QHelloWorld_ui/javascriptFile_js.cpp	ad0d26a0f68cc41e
+829	954	6916407114434047	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/javascriptFile_js.cpp	ad0d26a0f68cc41e
+819	1016	6916407115008336	.rcc/qmlcache/QHelloWorld_ui/main_qml.cpp	7c71bd0a82c70b
+819	1016	6916407115008336	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/main_qml.cpp	7c71bd0a82c70b
+1180	1381	6916407118045411	CMakeFiles/QHelloWorld.dir/QHelloWorld_autogen/mocs_compilation.cpp.o	bd66a954793b588b
+1363	1504	6916407119890719	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qrc_QHelloWorld_raw_qml_0.cpp.o	1dcbdab15d4e4628
+1017	2592	6916407130697628	CMakeFiles/QHelloWorld.dir/qhelloworld_qmltyperegistrations.cpp.o	35225fa739e431fd
+3429	3516	0	CMakeFiles/QHelloWorld_prepare_apk_dir	7c72285ac99c8a1d
+3516	24667	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/CMakeFiles/QHelloWorld_make_apk	bd511c84cb36b9dc
+1346	2914	6916407133846682	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/javascriptFile_js.cpp.o	3aef0eede3d24d76
+1320	2915	6916407133856689	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/constants_js.cpp.o	790b5fe9efaf3692
+3516	24667	0	CMakeFiles/QHelloWorld_make_apk	bd511c84cb36b9dc
+10	336	6916498881589009	QHelloWorld_autogen/timestamp	ebc9c3c20ad08cab
+10	336	6916498881589009	QHelloWorld_autogen/mocs_compilation.cpp	ebc9c3c20ad08cab
+10	336	6916498881589009	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/QHelloWorld_autogen/timestamp	ebc9c3c20ad08cab
+10	336	6916498881589009	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/QHelloWorld_autogen/mocs_compilation.cpp	ebc9c3c20ad08cab
+337	559	6916498880074859	meta_types/QHelloWorld_json_file_list.txt	59e2e7742564420
+337	559	6916498880074859	meta_types/QHelloWorld_json_file_list.txt.timestamp	59e2e7742564420
+337	559	6916498880074859	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/meta_types/QHelloWorld_json_file_list.txt	59e2e7742564420
+337	559	6916498880074859	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/meta_types/QHelloWorld_json_file_list.txt.timestamp	59e2e7742564420
+559	654	6916498884702130	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qrc_qmake_rec.cpp.o	3e5c27b503aa7df2
+567	655	6916498884652045	CMakeFiles/QHelloWorld.dir/QHelloWorld_autogen/mocs_compilation.cpp.o	bd66a954793b588b
+643	751	6916498885678935	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qrc_QHelloWorld_raw_qml_0.cpp.o	1dcbdab15d4e4628
+582	2008	6916498898109978	CMakeFiles/QHelloWorld.dir/qhelloworld_qmltyperegistrations.cpp.o	35225fa739e431fd
+590	2020	6916498898223083	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/constants_js.cpp.o	790b5fe9efaf3692
+633	2094	6916498898942299	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/javascriptFile_js.cpp.o	3aef0eede3d24d76
+574	2242	6916498900468109	CMakeFiles/QHelloWorld.dir/src/main.cpp.o	7111415c337bd8c7
+615	2276	6916498900850248	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_ui/main_qml.cpp.o	a74902b286318e3e
+599	2402	6916498902081055	CMakeFiles/QHelloWorld.dir/BuildAnd/.rcc/qmlcache/QHelloWorld_qmlcache_loader.cpp.o	ecae354eee84f7e8
+2402	3034	6916498908400026	libQHelloWorld_x86_64.so	893f62af2e6ac1c1
+3034	3093	0	CMakeFiles/QHelloWorld_prepare_apk_dir	7c72285ac99c8a1d
+3034	3093	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd/CMakeFiles/QHelloWorld_prepare_apk_dir	7c72285ac99c8a1d

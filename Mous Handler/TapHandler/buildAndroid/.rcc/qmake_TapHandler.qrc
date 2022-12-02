@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/TapHandler">
+    <file alias="qmldir">C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/TapHandler/qmldir</file>
+  </qresource>
+</RCC>
+

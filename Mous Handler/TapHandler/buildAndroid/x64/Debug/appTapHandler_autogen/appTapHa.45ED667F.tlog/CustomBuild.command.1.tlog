@@ -1,0 +1,34 @@
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\83F6EE49233FF2330A9637CD9D9C8D4A\APPTAPHANDLER_QMLCACHE_LOADER.CPP.RULE
+setlocal
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\qmlcachegen.exe --resource-name qmlcache_appTapHandler --resource "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmake_TapHandler.qrc" --resource "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/appTapHandler_raw_qml_0.qrc" -o "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmlcache/appTapHandler_qmlcache_loader.cpp" "@C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmlcache/appTapHandler_qml_loader_file_list.rsp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\A232343DB6E6CFF3601DF78B4E5C58C8\APPTAPHANDLER_AUTOGEN.RULE
+setlocal
+cd "C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CL\cmake\bin\cmake.exe -E cmake_autogen "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/appTapHandler_autogen.dir/AutogenInfo.json" Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\CMAKELISTS.TXT
+setlocal
+D:\CL\cmake\bin\cmake.exe "-SC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler" "-BC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid" --check-stamp-file "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-53a64ff2e9312936fe75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MultiTouchArea",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-abbc88f49c2bdbb1f630.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-e98213b98b17b1d9d3e2.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-9782bea666d8468fb9f6.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-57c88167bef3c4daeeb9.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-bbaf437118143d482953.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-f7221a5f5131166c2119.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-ad16f4381e32f5060d09.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea-Debug-92b733acbb70c1a29f75.json",
+					"name" : "appMultiTouchArea",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_autogen-Debug-a6cb413240b97b595064.json",
+					"name" : "appMultiTouchArea_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_autogen_timestamp_deps-Debug-b5bf1f3812e2493e7627.json",
+					"name" : "appMultiTouchArea_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_make_aab-Debug-dbcd43fa78d6713b1c5c.json",
+					"name" : "appMultiTouchArea_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_make_apk-Debug-b08e710cd11124a64961.json",
+					"name" : "appMultiTouchArea_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_other_files-Debug-e112aaaf2a162a9f4528.json",
+					"name" : "appMultiTouchArea_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_prepare_apk_dir-Debug-741d9d7ebdae6618ee60.json",
+					"name" : "appMultiTouchArea_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_qmllint-Debug-b9fe54a488124b47cd55.json",
+					"name" : "appMultiTouchArea_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_qmllint_json-Debug-cb84f4dfd0262204b5aa.json",
+					"name" : "appMultiTouchArea_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_qmltyperegistration-Debug-8c5c32a96d2a258fe8b2.json",
+					"name" : "appMultiTouchArea_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appMultiTouchArea_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appMultiTouchArea_tooling-Debug-78838d633485059a5f64.json",
+					"name" : "appMultiTouchArea_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-1c0a8cca4c10a05dfaed.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/buildv8",
+		"source" : "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

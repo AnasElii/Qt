@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/rec/">
+    <file alias="ui/main.qml">C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/ui/main.qml</file>
+    <file alias="ui/constants.js">C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/ui/constants.js</file>
+    <file alias="ui/javascriptFile.js">C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/ui/javascriptFile.js</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,10 @@
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\CMAKELISTS.TXT
+setlocal
+D:\CL\cmake\bin\cmake.exe "-SC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler" "-BC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid" --check-stamp-file "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

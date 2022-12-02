@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\appTapHandler_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\apptaphandler_qmltyperegistrations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\.rcc\qrc_qmake_TapHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\.rcc\qmlcache\appTapHandler_qmlcache_loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\.rcc\qmlcache\appTapHandler_main_qml.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\.rcc\qrc_appTapHandler_raw_qml_0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\appTapHandler_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\appTapHandler_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\appTapHandler_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\ddf_appTapHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\9ec1749518f3d0f078237693a3ba1ece\qt6apptaphandler_metatypes.json.gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\94171bc16c592558480eac975e2d6648\apptaphandler_qmltyperegistrations.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\4e126cd9c85f3bcb17d5d2acd979206a\qrc_qmake_TapHandler.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\83f6ee49233ff2330a9637cd9d9c8d4a\appTapHandler_main_qml.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\4e126cd9c85f3bcb17d5d2acd979206a\qrc_appTapHandler_raw_qml_0.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\meta_types\qt6apptaphandler_metatypes.json.gen" />
+    <None Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\main.qml" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6core_metatypes.json" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qml_metatypes.json" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6network_metatypes.json" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6quick_metatypes.json" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6gui_metatypes.json" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6qmlmodels_metatypes.json" />
+    <None Include="D:\CL\Qt\6.2.4\msvc2019_64\lib\metatypes\qt6opengl_metatypes.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87CF8277-09FD-396D-A9C3-48BD1F55A022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5DB367BD-E98F-3605-9680-223DF739B9F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9532684A-5F9A-3EB4-8959-EF43E1E15606}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

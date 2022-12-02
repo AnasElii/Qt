@@ -1,0 +1,68 @@
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\9EC1749518F3D0F078237693A3BA1ECE\QT6APPTAPHANDLER_METATYPES.JSON.GEN.RULE
+setlocal
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\moc.exe -o "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/qt6apptaphandler_metatypes.json.gen" --collect-json "@C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/appTapHandler_json_file_list.txt"
+if %errorlevel% neq 0 goto :cmEnd
+D:\CL\cmake\bin\cmake.exe -E copy_if_different "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/qt6apptaphandler_metatypes.json.gen" "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/qt6apptaphandler_metatypes.json"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\94171BC16C592558480EAC975E2D6648\APPTAPHANDLER_QMLTYPEREGISTRATIONS.CPP.RULE
+setlocal
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\qmltyperegistrar.exe "--generate-qmltypes=C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/TapHandler/appTapHandler.qmltypes" --import-name=TapHandler --major-version=1 --minor-version=0 "@C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/qmltypes/appTapHandler_foreign_types.txt" -o "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/apptaphandler_qmltyperegistrations.cpp" "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/qt6apptaphandler_metatypes.json"
+if %errorlevel% neq 0 goto :cmEnd
+D:\CL\cmake\bin\cmake.exe -E make_directory "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.generated"
+if %errorlevel% neq 0 goto :cmEnd
+D:\CL\cmake\bin\cmake.exe -E touch "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.generated/appTapHandler.qmltypes"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\4E126CD9C85F3BCB17D5D2ACD979206A\QRC_QMAKE_TAPHANDLER.CPP.RULE
+setlocal
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\rcc.exe --output "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qrc_qmake_TapHandler.cpp" --name qmake_TapHandler "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmake_TapHandler.qrc" --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\83F6EE49233FF2330A9637CD9D9C8D4A\APPTAPHANDLER_MAIN_QML.CPP.RULE
+setlocal
+D:\CL\cmake\bin\cmake.exe -E make_directory "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmlcache"
+if %errorlevel% neq 0 goto :cmEnd
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\qmlcachegen.exe --resource-path /TapHandler/main.qml -I "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid" -i "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/TapHandler/appTapHandler.qmltypes" --resource "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmake_TapHandler.qrc" --resource "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/appTapHandler_raw_qml_0.qrc" -o "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qmlcache/appTapHandler_main_qml.cpp" "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/main.qml"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\4E126CD9C85F3BCB17D5D2ACD979206A\QRC_APPTAPHANDLER_RAW_QML_0.CPP.RULE
+setlocal
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\rcc.exe --output "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/qrc_appTapHandler_raw_qml_0.cpp" --name appTapHandler_raw_qml_0 "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/.rcc/appTapHandler_raw_qml_0.qrc" --no-zstd
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\CMAKELISTS.TXT
+setlocal
+D:\CL\cmake\bin\cmake.exe "-SC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler" "-BC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid" --check-stamp-file "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

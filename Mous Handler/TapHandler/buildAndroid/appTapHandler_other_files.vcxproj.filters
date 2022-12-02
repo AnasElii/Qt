@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\TapHandler\qmldir" />
+    <None Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\main.qml" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

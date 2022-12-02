@@ -1,0 +1,20 @@
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\BUILDANDROID\CMAKEFILES\A232343DB6E6CFF3601DF78B4E5C58C8\APPTAPHANDLER_AUTOMOC_JSON_EXTRACTION.RULE
+setlocal
+D:\CL\Qt\6.2.4\msvc2019_64\.\bin\cmake_automoc_parser.exe --cmake-autogen-cache-file "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/appTapHandler_autogen.dir/ParseCache_Debug.txt" --cmake-autogen-info-file "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/appTapHandler_autogen.dir/AutogenInfo.json" --output-file-path "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/appTapHandler_json_file_list.txt" --timestamp-file-path "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/meta_types/appTapHandler_json_file_list.txt.timestamp" --cmake-autogen-include-dir-path "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/appTapHandler_autogen/include_Debug" --cmake-multi-config
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ANINOSS\DOCUMENTS\PROGRAMMING\QT\CROSS-PLATFORM DEVELOPMENT WITH QT 6\MOUS HANDLER\TAPHANDLER\CMAKELISTS.TXT
+setlocal
+D:\CL\cmake\bin\cmake.exe "-SC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler" "-BC:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid" --check-stamp-file "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/buildAndroid/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,45 @@
+# ninja log v5
+10	66	6914587660105903	MultiTouchArea/main.qml	d3f2a7ae5ec8aa0b
+10	66	6914587660105903	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/MultiTouchArea/main.qml	d3f2a7ae5ec8aa0b
+2	423	6914587663597108	.rcc/qmlcache/appMultiTouchArea_qmlcache_loader.cpp	302713b66ffb282c
+2	423	6914587663597108	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/.rcc/qmlcache/appMultiTouchArea_qmlcache_loader.cpp	302713b66ffb282c
+424	789	6914587665652486	appMultiTouchArea_autogen/timestamp	e1f1762a1df3669f
+424	789	6914587665652486	appMultiTouchArea_autogen/mocs_compilation.cpp	e1f1762a1df3669f
+424	789	6914587665652486	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/appMultiTouchArea_autogen/timestamp	e1f1762a1df3669f
+424	789	6914587665652486	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/appMultiTouchArea_autogen/mocs_compilation.cpp	e1f1762a1df3669f
+797	900	6914587668443366	.rcc/qrc_qmake_MultiTouchArea.cpp	9e2980c14ec2b547
+797	900	6914587668443366	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/.rcc/qrc_qmake_MultiTouchArea.cpp	9e2980c14ec2b547
+804	908	6914587668514377	.rcc/qrc_appMultiTouchArea_raw_qml_0.cpp	9efb66405711efc7
+804	908	6914587668514377	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/.rcc/qrc_appMultiTouchArea_raw_qml_0.cpp	9efb66405711efc7
+790	930	6914587668761592	meta_types/appMultiTouchArea_json_file_list.txt	a5d9ccd4c8217bde
+790	930	6914587668761592	meta_types/appMultiTouchArea_json_file_list.txt.timestamp	a5d9ccd4c8217bde
+790	930	6914587668761592	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/meta_types/appMultiTouchArea_json_file_list.txt	a5d9ccd4c8217bde
+790	930	6914587668761592	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/meta_types/appMultiTouchArea_json_file_list.txt.timestamp	a5d9ccd4c8217bde
+931	1007	6914587669527534	meta_types/qt6appmultitoucharea_debug_metatypes.json.gen	6216525320c53912
+931	1007	6914587669527534	meta_types/qt6appmultitoucharea_debug_metatypes.json	6216525320c53912
+931	1007	6914587669527534	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/meta_types/qt6appmultitoucharea_debug_metatypes.json.gen	6216525320c53912
+931	1007	6914587669527534	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/meta_types/qt6appmultitoucharea_debug_metatypes.json	6216525320c53912
+1007	1196	6914587670771775	appmultitoucharea_qmltyperegistrations.cpp	7121198184caa2e9
+1007	1196	6914587670771775	MultiTouchArea/appMultiTouchArea.qmltypes	7121198184caa2e9
+1007	1196	6914587670771775	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/appmultitoucharea_qmltyperegistrations.cpp	7121198184caa2e9
+1007	1196	6914587670771775	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/MultiTouchArea/appMultiTouchArea.qmltypes	7121198184caa2e9
+1196	1396	6914587673272741	.rcc/qmlcache/appMultiTouchArea_main_qml.cpp	13684302b1cb76f6
+1196	1396	6914587673272741	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/.rcc/qmlcache/appMultiTouchArea_main_qml.cpp	13684302b1cb76f6
+1414	1517	6914587674493050	CMakeFiles/appMultiTouchArea.dir/appMultiTouchArea_autogen/mocs_compilation.cpp.o	d1525460223405d1
+1444	1560	6914587674938899	CMakeFiles/appMultiTouchArea.dir/build64/.rcc/qrc_qmake_MultiTouchArea.cpp.o	3586505b47d8a259
+1456	1573	6914587675109263	CMakeFiles/appMultiTouchArea.dir/build64/.rcc/qrc_appMultiTouchArea_raw_qml_0.cpp.o	aaf203ee0fc139a6
+1397	2843	6914587687745603	CMakeFiles/appMultiTouchArea.dir/appmultitoucharea_qmltyperegistrations.cpp.o	f462695eb86cf5d5
+1406	3191	6914587691161136	CMakeFiles/appMultiTouchArea.dir/main.cpp.o	290d30dbf6b0955b
+1432	3214	6914587691407296	CMakeFiles/appMultiTouchArea.dir/build64/.rcc/qmlcache/appMultiTouchArea_main_qml.cpp.o	2a10a5035419e2a5
+1423	3334	6914587692557556	CMakeFiles/appMultiTouchArea.dir/build64/.rcc/qmlcache/appMultiTouchArea_qmlcache_loader.cpp.o	4ede8fc5724cca79
+3335	3731	6914587696586422	libappMultiTouchArea_x86_64.so	bfe5cb6d06c62ed7
+3731	3794	0	CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+3731	3794	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+11	72	0	CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+11	72	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+10	67	0	CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+10	67	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+90	240	0	CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+90	240	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/CMakeFiles/appMultiTouchArea_prepare_apk_dir	f28a8e8818a5ead7
+241	26778	0	CMakeFiles/appMultiTouchArea_make_apk	d023238aef67cd90
+241	26778	0	C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/MultiTouchArea/build64/CMakeFiles/appMultiTouchArea_make_apk	d023238aef67cd90

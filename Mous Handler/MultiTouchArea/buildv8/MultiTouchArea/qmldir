@@ -1,0 +1,4 @@
+module MultiTouchArea
+typeinfo appMultiTouchArea.qmltypes
+prefer :/MultiTouchArea/
+

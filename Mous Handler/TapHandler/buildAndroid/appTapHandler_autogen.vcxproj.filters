@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\83f6ee49233ff2330a9637cd9d9c8d4a\appTapHandler_qmlcache_loader.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\a232343db6e6cff3601df78b4e5c58c8\appTapHandler_autogen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Aninoss\Documents\Programming\Qt\Cross-Platform Development with Qt 6\Mous Handler\TapHandler\buildAndroid\CMakeFiles\appTapHandler_autogen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87CF8277-09FD-396D-A9C3-48BD1F55A022}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/TapHandler/">
+    <file alias="main.qml">C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Mous Handler/TapHandler/main.qml</file>
+  </qresource>
+</RCC>
+

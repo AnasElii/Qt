@@ -1,0 +1,4 @@
+module TapHandler
+typeinfo appTapHandler.qmltypes
+prefer :/TapHandler/
+

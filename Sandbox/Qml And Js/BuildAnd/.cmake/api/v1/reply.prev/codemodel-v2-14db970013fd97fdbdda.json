@@ -1,0 +1,223 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-15b4ea0309a2668e79f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "QHelloWorld",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld-Debug-c65dbde1c2d477f41ab3.json",
+					"name" : "QHelloWorld",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_autogen-Debug-2d66c94ecbadb560235f.json",
+					"name" : "QHelloWorld_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_autogen_timestamp_deps-Debug-f254eea85c02c0d3225a.json",
+					"name" : "QHelloWorld_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_make_aab-Debug-3dc0e0a49c94d3ae31b3.json",
+					"name" : "QHelloWorld_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_make_apk-Debug-1668d2be546def8c9b36.json",
+					"name" : "QHelloWorld_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_other_files-Debug-2faff84c65f6e55c7443.json",
+					"name" : "QHelloWorld_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_prepare_apk_dir-Debug-7f66da76e79f8f6d35de.json",
+					"name" : "QHelloWorld_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_qmllint-Debug-35b320a4013729f5caa6.json",
+					"name" : "QHelloWorld_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_qmllint_json-Debug-f77648a5082989b1d10d.json",
+					"name" : "QHelloWorld_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_qmltyperegistration-Debug-a7a15465cd92397ba9c8.json",
+					"name" : "QHelloWorld_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "QHelloWorld_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-QHelloWorld_tooling-Debug-14367e832c454703e475.json",
+					"name" : "QHelloWorld_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-f1b6e59083a39e90276b.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-cfe12249991efd6d37fa.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-e59fa3ea16c4c20252a7.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-dddd4efc5979c4c7d2e9.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-3fd4d7f228e04dfc41f1.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-bd520ba156cf10cb4538.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-5d2d831fdcccf6d829ea.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-9d7c31cc7ed51b32c271.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/BuildAnd",
+		"source" : "C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

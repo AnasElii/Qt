@@ -1,0 +1,14 @@
+-rootPath
+C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js
+-cmake-output
+-output-file
+C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/buildWin/.qt_plugins/Qt6_QmlPlugins_Imports_QHelloWorld.cmake
+-importPath
+C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/buildWin/rec
+-importPath
+C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/buildWin
+-importPath
+D:/CL/Qt/6.4.1/mingw_64/./qml
+-qrcFiles
+C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/buildWin/.rcc/qmake_rec.qrc
+C:/Users/Aninoss/Documents/Programming/Qt/Cross-Platform Development with Qt 6/Sandbox/Qml And Js/buildWin/.rcc/QHelloWorld_raw_qml_0.qrc
