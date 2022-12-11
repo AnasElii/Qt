@@ -4,6 +4,8 @@
 
 #include <QObject>
 
+class QPushButton;
+
 class MyClass : public QObject
 {
 	Q_OBJECT
@@ -19,6 +21,9 @@ signals:
 
 public slots:
 	void slotMain();
+
+private:
+	QPushButton* pushButton;
 
 };
 #endif MYCLASS_H

@@ -7,9 +7,9 @@ using namespace std;
 MyClass::MyClass(QObject *parent)
 	: QObject(parent)
 {
-	QObject::connect(sender, &MyClass::signalA, forwarder, &MyClass::signalB);
+	QObject::connect(this, &MyClass::signalA, this, &MyClass::signalB);
 	QObject::connect(this, &MyClass::signalB, this, &MyClass::slotMain);	
-	emit signalB();
+	emit signalA();
 
 }
 

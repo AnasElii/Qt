@@ -19,6 +19,5 @@ signals:
 
 public slots:
 	void slotMain();
-
 };
 #endif MYCLASS_H

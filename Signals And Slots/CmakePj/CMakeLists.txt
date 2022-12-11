@@ -4,7 +4,7 @@ project(QHelloWorld VERSION 1.0.0)
 set(CMAKE_AUTOMOC ON)
 set(CXX_STANDARD 17)
 set(CXX_STANDARD_REQUIRED ON)
-set(CMAKE_PREFIX_PATH $ENV{QTMSVCDIR})
+set(CMAKE_PREFIX_PATH $ENV{QTMINGWDIR})
 
 #======================= INCLUSION OF Qt =======================#
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
