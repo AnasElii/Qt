@@ -10,11 +10,11 @@ set(CMAKE_PREFIX_PATH $ENV{QTMINGWDIR})
 
 set(SOURCE_DIR "${CMAKE_SOURCE_DIR}/src")
 set(INCLUDE_DIR "${CMAKE_SOURCE_DIR}/include")
-set(UI_DIR "${CMAKE_SOURCE_DIR}/ui")
+set(UI_DIR "${CMAKE_SOURCE_DIR}/interfaces")
 
 include_directories(${SOURCE_DIR})
 include_directories(${INCLUDE_DIR})
-include_directories(${UI_DIR})
+include_directories(${INTERFACES_DIR})
 
 file(GLOB_RECURSE SOURCES
     "${SOURCE_DIR}/*.cpp"
@@ -30,7 +30,8 @@ qt_add_qml_module(QHelloWorld
     URI rec
     VERSION 1.0.0
     QML_FILES
-        ui/main.qml
+        interfaces/main.qml
+        # "${INTERFACES_DIR}"
 )
 
 target_link_directories(QHelloWorld PUBLIC ${SOURCE_DIR})

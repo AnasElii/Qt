@@ -1,44 +1,49 @@
 import QtQuick
 import QtQuick.Controls
-import rec
 
-Window {
+Window{
+    id: mainWindow
 
+    title: "Signal to function"
     visible: true
-    width: 640
-    height: 480
-    title: qsTr("Property Attributes In QML")
-
-    Rectangle{
-        id: mailBox
+    width: 650; height: 500
 
 
-        property var version: rec.version
-
-            signal forwardButtonClick()
-            anchors.fill: parent
-
-            Button {
-                id: sendButton
-
-                anchors.centerIn: parent
-                width: 100; height: 50
-                text: qsTr("OK")
+    Rectangle {
+        id: recMainColor
+        property var recColor : "blue"
+            anchors{
+                horizontalCenter: parent.horizontalCenter
+                bottom: middelRec.top
+                bottomMargin: 10
             }
+            width: 100
+            height: 100
+            color: recColor
 
-            onForwardButtonClick:{
-                console.log("The Project Version: " + version)
-                version = version + 1
-                console.log("The Project Version: " + version)
+            onRecColorChange:{
+                console.log("The color just cahanged to: " + recColor)
             }
+        }
 
-            onVersionChanged:{
-                console.log("Vestion Just Changes :)")
-            }
+        Rectangle {
+            id: middelRec
+            anchors.centerIn: parent
+            width: 100
+            height: 100
+            recMainColor.recColor: "green"
+            color: recMainColor.recColor
+        }
 
-            Component.onCompleted: {
-                sendButton.clicked.connect(forwardButtonClick)
+        Rectangle {
+            anchors{
+                horizontalCenter: parent.horizontalCenter
+                top: middelRec.bottom
+                topMargin: 10
             }
+            width: 100
+            height: 100
+            color: "red"
         }
 
     }
