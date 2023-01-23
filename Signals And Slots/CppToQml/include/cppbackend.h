@@ -10,7 +10,9 @@ class CppBackEnd : public QObject
 
 public:
     explicit CppBackEnd(QObject *parent = nullptr);
+
     Q_INVOKABLE void reciveFromQml();
+
     int counter() const;
     void setCounter(int counter);
 

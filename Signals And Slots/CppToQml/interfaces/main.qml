@@ -8,26 +8,25 @@ Window{
     width: 650; height: 500
     visible: true
 
-    default property int count : cppbackend.counter
+    default property int count : cppBackend.counter
 
     onCountChanged:{
         console.log("Property is notified. Update value is: " + count)
     }
 
     Connections {
-        target: cppbackend
+        target: cppBackend
         onSendToQml:{
-            labelCount.text: "Fetched value is :" + cppbackend.counter
+            labelCount.text = "Fetched value is :" + cppBackend.counter
         }
     }
 
     Row{
-        anchors.centerIn = parent
+        anchors.centerIn : parent
         spacing: 20
         Text{
-            is: labelCount
-            text: "Fetched value is: " + cppbackend.counter
-
+            id: labelCount
+            text: "Fetched value is: " + cppBackend.counter
         }
 
         Button {
@@ -35,7 +34,7 @@ Window{
             text: qsTr("Fetch")
             width: 100; height: 20
             onClicked: {
-                cppbackend.receiveFromQml();
+                cppBackend.receiveFromQml();
             }
         }
 

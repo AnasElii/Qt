@@ -12,10 +12,16 @@ void CppBackEnd::reciveFromQml()
     emit sendToQml(m_counter);
 }
 
+int CppBackEnd::counter() const
+{
+    return m_counter;
+}
+
 void CppBackEnd::setCounter(int counter)
 {
     if (m_counter == counter)
         return;
+
     m_counter = counter;
     emit counterChanged(m_counter);
 }

@@ -1,7 +1,7 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <iostream>
+
 #include "cppbackend.h"
 
 int main(int argc, char *argv[])
@@ -12,9 +12,9 @@ int main(int argc, char *argv[])
     CppBackEnd cppBackEnd;
     QQmlContext *context = engine.rootContext();
 
-    context->setContextProperty("cppBackEnd", &cppBackEnd);
+    context->setContextProperty("cppBackend", &cppBackEnd);
 
-    engine.load(QUrl(QStringLiteral("qrc:rec/ui/main.qml")));
+    engine.load(QUrl(QStringLiteral("qrc:rec/interfaces/main.qml")));
     if (engine.rootObjects().isEmpty())
     {
         return -1;
